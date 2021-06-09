@@ -1,0 +1,159 @@
+img.gallery {
+    width: 9%;
+    max-height: 12%;
+    position: absolute;
+    z-index: 100;
+}
+
+img#img-1 {
+    top: 19.6%;
+    left: 15.445%;
+}
+
+img#img-2 {
+    top: 33%;
+    left: 15.445%;
+}
+
+img#img-3 {
+    top: 47.1%;
+    left: 15.445%;
+}
+
+img#img-logo {
+    position: absolute;
+    z-index: 100;
+    max-width: 30%;
+    top: 27.1%;
+    left: 35.6%;
+    max-height: 32%;
+}
+
+a#banner {
+    z-index: 100;
+    width: 10.2%;
+    height: 33%;
+    position: absolute;
+    top: 16%;
+    right: 14.2%;
+}
+
+.box {
+    z-index: 100000;
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    height: 250px;
+    width: 10px;
+    top: 20%;
+    left: 0;
+}
+
+.box a {
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.box p {
+    color: #fff;
+    position: relative;
+    left: 0px;
+}
+
+.box p img {
+    position: relative;
+    left: 15px;
+    height: 30px;
+    margin: 10px 0;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.box p img.brochure {
+    left: 27px;
+}
+
+.box p img.gal {
+    left: 33px;
+}
+
+.single-box {
+    margin-left: -140px;
+    width: 180px;
+    padding: 0;
+    display: inline-table;
+    height: 0;
+    transition: margin-left .5s;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    margin-bottom: 10px;
+}
+
+.single-box:hover {
+    margin-left: -30px;
+}
+
+div#gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10000;
+}
+
+div#gallery.active {
+    display: flex;
+}
+
+div#gallery div.content {
+    background-image: url(../../../images/sala/texture.jpg);
+    width: 55%;
+    min-height: 20%;
+    max-height: 80%;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    z-index: 1000;
+}
+
+div#gallery div div {
+    width: 100%;
+    height: 100%;
+    max-height: 74vh;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+
+div#gallery div div a {
+    width: 30%;
+    padding: 10px;
+}
+
+div#gallery div div a img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    div#gallery div.content {
+        width: 75%;
+    }
+}

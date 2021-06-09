@@ -1,0 +1,149 @@
+div#space a.title {
+    position: absolute;
+    width: 12%;
+    height: 5%;
+    background-color: #ffffffbd;
+    z-index: 1000;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+div#space a.title img {
+    width: 20%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 7px;
+    right: 4px;
+    position: absolute;
+    top: 15%;
+}
+
+div#space a.title span {
+    width: 70%;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 10pt;
+    font-weight: 500;
+}
+
+div#space a.title.one {
+    top: 27%;
+    left: 7.5%;
+}
+
+div#space a.title.two {
+    top: 30%;
+    left: 21.3%;
+}
+
+div#space a.title.three {
+    top: 30%;
+    left: 35.6%;
+}
+
+div#space a.title.four {
+    top: 30%;
+    left: 50%;
+}
+
+div#space a.title.five {
+    top: 30%;
+    right: 23.3%;
+}
+
+div#space a.title.six {
+    top: 27%;
+    right: 9.5%;
+}
+
+div#space a.title.seven {
+    top: 45.3%;
+    left: 7.4%;
+}
+
+div#space a.title.eight {
+    top: 45.3%;
+    left: 23.5%;
+}
+
+div#space a.title.nine {
+    top: 45.3%;
+    left: 37.15%;
+}
+
+div#space a.title.ten {
+    top: 45.3%;
+    right: 34%;
+}
+
+div#space a.title.eleven {
+    top: 45.3%;
+    right: 20.55%;
+}
+
+div#space a.title.twelve {
+    top: 45.3%;
+    right: 7%;
+}
+
+div#space a.title.thirteen {
+    bottom: 30%;
+    left: 8%;
+}
+
+div#space a.title.fourteen {
+    bottom: 33%;
+    left: 22.3%;
+}
+
+div#space a.title.fifteen {
+    bottom: 33%;
+    left: 36.6%;
+}
+
+div#space a.title.sixteen {
+    bottom: 33%;
+    left: 51%;
+}
+
+div#space a.title.seventeen {
+    bottom: 33%;
+    right: 22.3%;
+}
+
+div#space a.title.eighteen {
+    bottom: 30.5%;
+    right: 8%;
+}
+
+div#space a.toggle img {
+    position: absolute;
+    width: 210px;
+    z-index: 1000;
+    bottom: 9vh;
+}
+
+div#space a.toggle.out img {
+    left: 5px;
+}
+
+div#space a.toggle.other img {
+    right: 10px;
+}
+
+@media only screen and (max-height: 500px) {
+    div#space a.title span {
+        font-size: 6pt;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    div#space a.toggle img {
+        width: 140px;
+    }
+}

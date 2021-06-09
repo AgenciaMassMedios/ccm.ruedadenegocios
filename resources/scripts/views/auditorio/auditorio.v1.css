@@ -1,0 +1,81 @@
+div#vtcontainer div#ui div#space div#container-space div#screen {
+    margin-top: -8.5%;
+    margin-left: -0.5%;
+    width: 40.5%;
+    height: 43%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    background-color: transparent;
+}
+
+div#vtcontainer div#ui div#space div#container-space div#screen img,
+div#vtcontainer div#ui div#space div#container-space div#screen iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+div#vtcontainer div#ui div#space div#container-space a {
+    position: absolute;
+    width: 13%;
+    z-index: 3;
+}
+
+div#vtcontainer div#ui div#space div#container-space a.left {
+    left: 1%;
+    top: 9%;
+    height: 56.5%;
+    -webkit-transform: skewY(2deg);
+    -moz-transform: skewY(2deg);
+    -o-transform: skewY(2deg);
+}
+
+div#vtcontainer div#ui div#space div#container-space a.right {
+    right: 1%;
+    top: 10%;
+    height: 55.5%;
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -o-transform: skewY(-2deg);
+}
+
+button#agenda {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: #149753;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1000000;
+    cursor: pointer;
+}
+
+button#agenda svg {
+    width: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+div#container-space a.toggle img {
+    position: fixed;
+    width: 210px;
+    z-index: 1000;
+    bottom: 2vh;
+}
+
+div#container-space a.toggle.out img {
+    left: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    div#container-space a.toggle img {
+        width: 140px;
+    }
+}
