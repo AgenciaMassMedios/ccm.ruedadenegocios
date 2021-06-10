@@ -16,7 +16,7 @@
                     
                 </div>
                 <a class="left" href="resources/images/auditorio/main.jpg" data-lightbox="example-set"></a>
-
+                <a class="toggle out" href="inicio"><img src="resources/images/inicio/salir.png"></a>
             </div>
         </div>
     </div>

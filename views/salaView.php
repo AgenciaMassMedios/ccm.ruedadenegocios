@@ -11,7 +11,7 @@ View::render(function () {
 }, [
     "title" => "Reunión",
     "js" => ["https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"],
-    "css" => ["resources/scripts/views/sala/sala.v1.min.css", "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"],
+    "css" => ["resources/scripts/views/sala/sala.v2.min.css", "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"],
     "module" => ["resources/scripts/views/sala/sala.v1.min.js"],
     "daily"
 ]);

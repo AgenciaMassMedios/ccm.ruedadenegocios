@@ -225,3 +225,20 @@ button#salir {
     z-index: 100000000;
     cursor: pointer;
 }
+
+div#container-space a.toggle img {
+    position: fixed;
+    width: 210px;
+    z-index: 1000;
+    bottom: 2vh;
+}
+
+div#container-space a.toggle.out img {
+    left: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    div#container-space a.toggle img {
+        width: 140px;
+    }
+}

@@ -9,6 +9,7 @@
                 <a id="a-3" class="gallery" href="resources/images/stands/loading.gif" data-lightbox="example-set"><img id="img-3" class="gallery" src="resources/images/stands/loading.gif"></a>
                 <img id="img-logo" src="resources/images/stands/loading-logo.gif">
                 <a id="banner" href="resources/images/auditorio/main.jpg" data-lightbox="example-set"></a>
+                <a class="toggle out" href="stands?pabellon=naranja"><img src="resources/images/inicio/salir.png"></a>
             </div>
         </div>
 
