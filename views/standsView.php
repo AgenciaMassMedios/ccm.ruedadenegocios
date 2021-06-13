@@ -7,7 +7,7 @@ use MVC4PHP\View;
 View::render(function () {
     View::insertComponent("views/stands/structure");
 }, [
-    "title" => "Reunión",
+    "title" => "Stands",
     "css" => ["resources/scripts/views/stands/stands.v1.min.css"],
     "module" => ["resources/scripts/views/stands/stands.v1.min.js"]
 ]);

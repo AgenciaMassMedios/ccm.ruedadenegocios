@@ -5,7 +5,7 @@
 <a class="title four" href="stand?name=ainpas"><span>ainpas<span><img src="resources/docs/stands/companies/ainpas/logo.jpg"></a>
 <a class="title five" href="stand?name=cafesenorial"><span>CAFE SEÑORIAL<span><img src="resources/docs/stands/companies/cafesenorial/logo.jpg"></a>
 <a class="title seven" href="stand?name=pizzabor"><span>PIZZABOR<span><img src="resources/docs/stands/companies/pizzabor/logo.jpg"></a>
-<a class="title eight" href="stand?name=deerhug"><span>DEER HUG<span><img src="resources/docs/stands/companies/deerhug/logo.jpg"></a>
+<a class="title eight" href="stand?name=deerhug"><span>DEER HUG COFFEE<span><img src="resources/docs/stands/companies/deerhug/logo.jpg"></a>
 <a class="title nine" href="stand?name=drgreen"><span>DR GREEN<span><img src="resources/docs/stands/companies/drgreen/logo.jpg"></a>
 <a class="title ten" href="stand?name=cafetajo"><span>Cafe del Tajo<span><img src="resources/docs/stands/companies/cafetajo/logo.jpg"></a>
 <a class="title eleven" href="stand?name=chontaduro"><span>ASOPROCHOER<span><img src="resources/docs/stands/companies/chontaduro/logo.jpg"></a>
